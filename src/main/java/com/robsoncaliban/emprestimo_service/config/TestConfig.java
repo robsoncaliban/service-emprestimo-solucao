@@ -27,9 +27,6 @@ public class TestConfig implements CommandLineRunner{
         EmprestimoDtoRequest emprestimo03 = new EmprestimoDtoRequest(EmprestimoTipo.COM_GARANTIA,
             BigDecimal.valueOf(3));
         
-        emprestimoService.addEmprestimo(emprestimo01);
-        emprestimoService.addEmprestimo(emprestimo02);
-        emprestimoService.addEmprestimo(emprestimo03);
     }
     
 }
