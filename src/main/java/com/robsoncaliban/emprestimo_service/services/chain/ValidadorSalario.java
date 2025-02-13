@@ -2,7 +2,7 @@ package com.robsoncaliban.emprestimo_service.services.chain;
 
 import java.math.BigDecimal;
 
-import com.robsoncaliban.emprestimo_service.dto.ClienteDtoRequest;
+import com.robsoncaliban.emprestimo_service.entities.dto.request.ClienteDtoRequest;
 import com.robsoncaliban.emprestimo_service.services.chain.enums.ValidacaoTipo;
 
 public class ValidadorSalario extends ValidadorEtapa {

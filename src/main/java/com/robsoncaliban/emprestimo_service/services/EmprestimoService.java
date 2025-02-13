@@ -7,9 +7,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.robsoncaliban.emprestimo_service.dto.ClienteDtoRequest;
-import com.robsoncaliban.emprestimo_service.dto.response.AnalisarEmprestimoDtoResponse;
 import com.robsoncaliban.emprestimo_service.entities.Emprestimo;
+import com.robsoncaliban.emprestimo_service.entities.dto.request.ClienteDtoRequest;
+import com.robsoncaliban.emprestimo_service.entities.dto.response.AnalisarEmprestimoDtoResponse;
 import com.robsoncaliban.emprestimo_service.entities.enums.EmprestimoTipo;
 import com.robsoncaliban.emprestimo_service.services.chain.ValidadorEtapa;
 import com.robsoncaliban.emprestimo_service.services.chain.ValidadorIdadeLocalidade;

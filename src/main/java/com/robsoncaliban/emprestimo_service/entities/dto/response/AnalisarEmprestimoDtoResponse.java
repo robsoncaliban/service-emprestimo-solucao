@@ -1,4 +1,4 @@
-package com.robsoncaliban.emprestimo_service.dto.response;
+package com.robsoncaliban.emprestimo_service.entities.dto.response;
 
 import java.util.List;
 

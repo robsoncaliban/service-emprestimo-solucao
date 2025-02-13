@@ -1,4 +1,4 @@
-package com.robsoncaliban.emprestimo_service.dto;
+package com.robsoncaliban.emprestimo_service.entities.dto.request;
 
 import java.math.BigDecimal;
 

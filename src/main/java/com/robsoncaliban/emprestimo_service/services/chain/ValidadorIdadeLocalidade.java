@@ -1,6 +1,6 @@
 package com.robsoncaliban.emprestimo_service.services.chain;
 
-import com.robsoncaliban.emprestimo_service.dto.ClienteDtoRequest;
+import com.robsoncaliban.emprestimo_service.entities.dto.request.ClienteDtoRequest;
 import com.robsoncaliban.emprestimo_service.services.chain.enums.ValidacaoTipo;
 
 public class ValidadorIdadeLocalidade extends ValidadorEtapa {

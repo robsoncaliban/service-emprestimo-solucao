@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.robsoncaliban.emprestimo_service.dto.ClienteDtoRequest;
-import com.robsoncaliban.emprestimo_service.dto.response.AnalisarEmprestimoDtoResponse;
+import com.robsoncaliban.emprestimo_service.entities.dto.request.ClienteDtoRequest;
+import com.robsoncaliban.emprestimo_service.entities.dto.response.AnalisarEmprestimoDtoResponse;
 import com.robsoncaliban.emprestimo_service.services.EmprestimoService;
 
 import lombok.AllArgsConstructor;
