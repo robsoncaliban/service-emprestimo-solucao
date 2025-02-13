@@ -21,6 +21,4 @@ public class ValidadorSalario extends ValidadorEtapa {
 
         return ValidacaoTipo.VALIDO_CONSIGNADO;
     }
-    // > 0 se o parametro do compareTo for menor 
-    // < 0 se o parametro do compareTo for maior
 }

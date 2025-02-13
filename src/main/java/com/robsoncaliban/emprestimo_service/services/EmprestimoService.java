@@ -30,6 +30,7 @@ public class EmprestimoService {
         }
         return new AnalisarEmprestimoDtoResponse(cliente.nome(), emprestimosValidos);
     }
+    
     private ValidacaoTipo validarTodasCrendeciais(ClienteDtoRequest cliente){
         ValidadorEtapa chain = new ValidadorSalario();
         chain.setProximo(new ValidadorIdadeLocalidade());
