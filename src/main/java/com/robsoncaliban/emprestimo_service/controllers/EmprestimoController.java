@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.robsoncaliban.emprestimo_service.dto.ClienteDtoRequest;
-import com.robsoncaliban.emprestimo_service.dto.EmprestimoDtoRequest;
 import com.robsoncaliban.emprestimo_service.dto.response.AnalisarEmprestimoDtoResponse;
-import com.robsoncaliban.emprestimo_service.dto.response.EmprestimoDtoResponse;
-import com.robsoncaliban.emprestimo_service.entities.Emprestimo;
 import com.robsoncaliban.emprestimo_service.services.EmprestimoService;
 
 import lombok.AllArgsConstructor;
@@ -21,10 +18,9 @@ import lombok.AllArgsConstructor;
 public class EmprestimoController {
     private EmprestimoService emprestimoService;
 
-    @PostMapping
+    @PostMapping(value = "/analisar")
     public ResponseEntity<AnalisarEmprestimoDtoResponse> analisarEmprestimo(
-        @RequestBody 
-        ClienteDtoRequest clienteDtoRequest){
+        @RequestBody ClienteDtoRequest clienteDtoRequest){
             
         var emprestimo = emprestimoService.analisarEmprestimo(clienteDtoRequest);
         return ResponseEntity.ok().body(emprestimo);
